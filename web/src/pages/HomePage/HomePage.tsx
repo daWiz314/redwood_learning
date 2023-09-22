@@ -1,5 +1,6 @@
-import { Link, routes } from '@redwoodjs/router'
 import { MetaTags } from '@redwoodjs/web'
+
+import ArticlesCell from 'src/components/ArticlesCell'
 
 const HomePage = () => {
   return (
@@ -7,7 +8,7 @@ const HomePage = () => {
       <MetaTags title="Home" description="Home page" />
 
       <h1>HomePage</h1>
-      <p>This is the home page </p>
+      <ArticlesCell />
     </>
   )
 }
